@@ -1,8 +1,8 @@
-package view;
+package View;
 
 import java.util.List;
 import java.util.Scanner;
-import model.Student;
+import Model.Student;
 
 public class StudentView {
     private Scanner scanner;
