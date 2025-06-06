@@ -2,7 +2,7 @@ package view;
 
 import java.util.List;
 import java.util.Scanner;
-import Model.Student;
+import model.Student;
 
 public class StudentView {
     private Scanner scanner;
