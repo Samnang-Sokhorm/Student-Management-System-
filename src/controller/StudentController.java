@@ -1,10 +1,10 @@
-package Controller;
+package controller;
 
 import java.sql.SQLException;
 import java.util.List;
-import Model.Student;
-import Model.StudentDAO;
-import View.StudentView;
+import model.Student;
+import model.StudentDAO;
+import view.StudentView;
 
 public class StudentController {
     private StudentDAO studentDAO;

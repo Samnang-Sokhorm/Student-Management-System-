@@ -1,6 +1,6 @@
-import Model.StudentDAO;
-import View.StudentView;
-import Controller.StudentController;
+import model.StudentDAO;
+import view.StudentView;
+import controller.StudentController;
 
 public class Main {
     public static void main(String[] args) {
