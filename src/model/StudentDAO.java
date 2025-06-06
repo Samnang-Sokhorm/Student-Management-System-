@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class StudentDAO {
         }
     }
 
-    public boolean addStudent(Model.Student student) throws SQLException {
+    public boolean addStudent(model.Student student) throws SQLException {
         if (!isValidStudent(student)) {
             return false;
         }
